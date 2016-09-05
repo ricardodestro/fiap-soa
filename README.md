@@ -16,12 +16,17 @@ Projeto SOA utilizando Netbeans, ActiveMQ, MySQL e Mule
 * Mysql 5.6
   * https://www.mysql.com/
 
-## Bibliotecas adicionais, diretório 3rd-party-libs
+## Bibliotecas adicionais
+ Bibliotecas que precisam ser adicionadas aos projetos
+### Diretório
+ /3rd-party-libs
+### Arquivos
  * ActiveMQ: activemq-all-5.14.0.jar **Utilizado no Netbeans e Mule**
- * JSON: json-20160810.jar **Utilizado no Betbeans**
  * Mysql Connector: mysql-connector-java-5.1.33.jar **Utilizado apenas no Mule**
+ * JSON: json-20160810.jar **Utilizado no Betbeans**
 
 ## MySQL
+ Banco de dados
 ### Diretório
  /database
 ### Arquivos
@@ -29,6 +34,7 @@ Projeto SOA utilizando Netbeans, ActiveMQ, MySQL e Mule
  * /database/loja.mwb: Arquivo do MySQL Workbench
 
 ## ActiveMQ
+ Sistema de filas
 ### Filas
   * **client**: Operações com dados do cliente
   * **product**: Operações com dados do produto
