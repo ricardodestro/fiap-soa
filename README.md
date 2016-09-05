@@ -22,11 +22,14 @@ Projeto SOA utilizando Netbeans, ActiveMQ, MySQL e Mule
  * Mysql Connector: mysql-connector-java-5.1.33.jar **Utilizado apenas no Mule**
 
 ## MySQL
+### Diretório
+ /database
+### Arquivos
  * /database/database.sql: Script para criar banco de dados
  * /database/loja.mwb: Arquivo do MySQL Workbench
 
 ## ActiveMQ
-  Sistema cria 3 filas
+### Filas
   * **client**: Operações com dados do cliente
   * **product**: Operações com dados do produto
   * **order**: Operações com dados do pedido
@@ -35,13 +38,15 @@ Como implementar no JAVA o ActiveMQ com **request-response** [link](http://activ
 
 ## Mule
  Utilizado como broker entre ActiveMQ e MYSQL
- 
  Os fluxos foram configurados com JMS ActiveMQ utilizando **request-response**
- 
-## Fluxo de dados
-###Request
+
+### Diretório
+ /mule-project
+
+### Fluxo de dados
+####Request
 [INTERFACE JAVA SWING]-> [SEND REQUEST]-> [QUEUE] <-[CONSUME]-> [MULE]-> [ACTION]-> [MYSQL] 
-###Response
+####Response
 [MULE]-> [SEND RESPONSE]-> [TEMPORARY RESPONSE QUEUE] <-[CONSUME]-> [INTERFACE JAVA SWING]
 
 ## Premissas
