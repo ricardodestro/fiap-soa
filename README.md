@@ -5,25 +5,24 @@ Projeto SOA utilizando Netbeans, ActiveMQ, MySQL e Mule
  * Processo de vender
  
 ## Aplicações
-* Java 8
- * http://www.oracle.com/technetwork/java/javase/overview/index.html
-* Netbeans 8.1
-  * https://netbeans.org/
-* ActiveMQ 5.14.0
-  * http://activemq.apache.org/
-* Mule Anypoint Studio 6
-  * https://developer.mulesoft.com/
-* Mysql 5.6
-  * https://www.mysql.com/
+| Aplicação | Versão | URL |
+|-----------|--------|-----|
+| Java | 8 | http://www.oracle.com/technetwork/java/javase/overview/index.html |
+| Netbeans | 8.1 | https://netbeans.org/ |
+| ActiveMQ | 5.14.0 | http://activemq.apache.org/ |
+| Mule Anypoint Studio | 6 | https://developer.mulesoft.com/ |
+| Mysql | 5.6 | https://www.mysql.com/ |
 
 ## Bibliotecas adicionais
  Bibliotecas que precisam ser adicionadas aos projetos
 ### Diretório
  /3rd-party-libs
 ### Arquivos
- * ActiveMQ: activemq-all-5.14.0.jar **Utilizado no Netbeans e Mule**
- * Mysql Connector: mysql-connector-java-5.1.33.jar **Utilizado apenas no Mule**
- * JSON: json-20160810.jar **Utilizado no Betbeans**
+| Nome | Arquivo | Netbeans | Mule |
+|------|---------|----------|------|
+| ActiveMQ | activemq-all-5.14.0.jar | Sim | Sim |
+| Mysql Connector | mysql-connector-java-5.1.33.jar | Não | Sim |
+| JSON | json-20160810.jar | Sim | Não |
 
 ## Netbeans
  IDE Java para criação das telas Java Swing
@@ -37,15 +36,19 @@ Projeto SOA utilizando Netbeans, ActiveMQ, MySQL e Mule
 ### Diretório
  /database
 ### Arquivos
- * /database/database.sql: Script para criar banco de dados
- * /database/loja.mwb: Arquivo do MySQL Workbench
+| Arquivo | Descrição |
+|---------|-----------|
+| /database/database.sql | Script para criar banco de dados |
+| /database/loja.mwb | Arquivo do MySQL Workbench |
 
 ## ActiveMQ
  Sistema de filas
 ### Filas
-  * **client**: Operações com dados do cliente
-  * **product**: Operações com dados do produto
-  * **order**: Operações com dados do pedido
+| Fila | Descrição |
+|------|-----------|
+|**client**| Operações com dados do cliente |
+|**product**| Operações com dados do produto |
+|**order**| Operações com dados do pedido |
   
 Como implementar no JAVA o ActiveMQ com **request-response** [link](http://activemq.apache.org/how-should-i-implement-request-response-with-jms.html)
 
