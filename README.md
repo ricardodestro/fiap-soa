@@ -25,6 +25,13 @@ Projeto SOA utilizando Netbeans, ActiveMQ, MySQL e Mule
  * Mysql Connector: mysql-connector-java-5.1.33.jar **Utilizado apenas no Mule**
  * JSON: json-20160810.jar **Utilizado no Betbeans**
 
+## Netbeans
+ IDE Java para criação das telas Java Swing
+### Diretório
+ /
+### Fontes
+ /src/fiap/soa
+ 
 ## MySQL
  Banco de dados
 ### Diretório
