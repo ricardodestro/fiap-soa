@@ -5,6 +5,8 @@ Projeto SOA utilizando Netbeans, ActiveMQ, MySQL e Mule
  * Processo de vender
  
 ## Aplicações
+* Java 8
+ * http://www.oracle.com/technetwork/java/javase/overview/index.html
 * Netbeans 8.1
   * https://netbeans.org/
 * ActiveMQ 5.14.0
@@ -13,6 +15,10 @@ Projeto SOA utilizando Netbeans, ActiveMQ, MySQL e Mule
   * https://developer.mulesoft.com/
 * Mysql 5.6
   * https://www.mysql.com/
+
+## Bibliotecas adicionais, diretório 3rd-party-libs
+ * ActiveMQ: activemq-all-5.14.0.jar
+ * JSON: json-20160810.jar
 
 ## ActiveMQ
   Sistema cria 3 filas
