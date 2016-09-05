@@ -15,26 +15,20 @@ Projeto SOA utilizando Netbeans, ActiveMQ, MySQL e Mule
 
 ## Bibliotecas adicionais
  Bibliotecas que precisam ser adicionadas aos projetos
-### Diretório
- /3rd-party-libs
 ### Arquivos
 | Nome | Arquivo | Netbeans | Mule |
 |------|---------|----------|------|
-| ActiveMQ | activemq-all-5.14.0.jar | Sim | Sim |
-| Mysql Connector | mysql-connector-java-5.1.33.jar | Não | Sim |
-| JSON | json-20160810.jar | Sim | Não |
+| ActiveMQ | /3rd-party-libs/activemq-all-5.14.0.jar | Sim | Sim |
+| Mysql Connector | /3rd-party-libs/mysql-connector-java-5.1.33.jar | Não | Sim |
+| JSON | /3rd-party-libs/json-20160810.jar | Sim | Não |
 
 ## Netbeans
  IDE Java para criação das telas Java Swing
-### Diretório
- /
 ### Fontes
  /src/fiap/soa
  
 ## MySQL
  Banco de dados
-### Diretório
- /database
 ### Arquivos
 | Arquivo | Descrição |
 |---------|-----------|
